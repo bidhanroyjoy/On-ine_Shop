@@ -1,0 +1,24 @@
+.footer {
+    margin: 50px 20px;
+    height: 350px;
+    background-color: rgb(20, 3, 32);
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-container {
+    color: white;
+}
+
+.footer-container-title {
+    color: rgb(226, 219, 219);
+    margin-top: 20px;
+}
+
+.footer-container-text-container {
+    margin: 20px 0px;
+}
+
+.footer-container-text {
+    margin-top: 5px;
+}

@@ -1,0 +1,12 @@
+.SubHeader {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.SubHeader-list {
+    margin: 0px 25px;
+    font-weight: bold;
+}

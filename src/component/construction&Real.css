@@ -1,0 +1,27 @@
+.ConstructionReal {
+    width: 100%;
+    margin: 100px 20px 0px 20px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.ConstructionReal-title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ConstructionReal-div {
+    width: 70%;
+    height: 0;
+    border: 5px solid rgb(214, 201, 201);
+}
+
+.ConstructionReal-img {
+    width: 100%;
+}
+
+.ConstructionReal-img img {
+    width: 98%;
+    margin-top: 20px;
+}

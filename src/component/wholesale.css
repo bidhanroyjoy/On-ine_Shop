@@ -1,0 +1,57 @@
+.Wholesale {
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.Wholesale-title {
+    width: 100%;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+.Wholesale-title i {
+    margin-right: 20px;
+}
+
+.Wholesale-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.Wholesale-container-item {
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.Wholesale-container-buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-bottom: 200px;
+}
+
+.Wholesale-container-button-black {
+    background-color: black;
+    width: 40%;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+.Wholesale-container-button-red {
+    background-color: red;
+    width: 40%;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+.Wholesale-container-button-bottom {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: royalblue;
+    color: #fff;
+}

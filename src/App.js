@@ -1,23 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import '../node_modules/font-awesome/css/font-awesome.min.css'; 
+
+
+import Header from './component/header';
+import SubHeader from './component/subheader';
+import Poster from './component/poster';
+import WholeSale from './component/wholesale';
+import BigSelection from './component/bigselection';
+import GradientPoster from './component/gradientPoster';
+import ConstructionReal from './component/construction&Real';
+import Footer from './component/footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Header />
+     <SubHeader />
+     <Poster />
+     <WholeSale />
+     <BigSelection />
+     <GradientPoster />
+     <ConstructionReal />
+     <Footer />
     </div>
   );
 }

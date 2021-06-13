@@ -1,0 +1,13 @@
+.GradientPoster {
+    margin: 20px;
+    background-image: linear-gradient( #E3B727 , #E1D9C1 );
+    height: 500px;
+    display: flex;
+}
+
+.GradientPoster-container {
+    width: 50%;
+    margin: 50px 20px;
+    height: 500px;
+    background-color: seashell;
+}

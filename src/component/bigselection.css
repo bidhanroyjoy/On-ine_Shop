@@ -1,0 +1,29 @@
+.bigselection {
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.bigselection-title {
+    width: 100%;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+.bigselection-title i {
+    margin-right: 20px;
+}
+
+.bigselection-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.bigselection-container-item {
+    border: 2px solid black;
+    height: 200px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
