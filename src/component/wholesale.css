@@ -1,6 +1,7 @@
 .Wholesale {
     width: 100%;
     margin: 20px 0px;
+    position: relative;
 }
 
 .Wholesale-title {
@@ -11,25 +12,33 @@
 }
 
 .Wholesale-title i {
-    margin-right: 20px;
+    margin-right: 20px; 
 }
 
-.Wholesale-container {
+.Wholesale_item {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    
 }
 
 .Wholesale-container-item {
     border: 2px solid black;
     margin: 10px;
+    position: relative;
 }
 
 .Wholesale-container-buttons {
     display: flex;
     justify-content: space-around;
     padding: 10px;
-    margin-bottom: 200px;
+    margin-bottom: -13px;
 }
+
+/* .img-size{
+    height: 159px;
+    width: 184px;
+    padding: 11px;
+} */
 
 .Wholesale-container-button-black {
     background-color: black;
@@ -45,6 +54,20 @@
     color: white;
     padding: 5px;
     text-align: center;
+}
+
+.Wholesale-container-image{
+    object-fit: cover;
+    width:10px;
+    height: 166px;
+    display:block;
+}
+.img_size{
+    height: 162px;
+    width:182px;
+    padding:7px;
+    object-fit: cover;
+    margin: 4px;
 }
 
 .Wholesale-container-button-bottom {

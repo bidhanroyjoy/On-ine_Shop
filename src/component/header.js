@@ -10,6 +10,7 @@ function Header() {
             <input type="text" className="header-search-input-container" />
             <div className="header-search-button" ><i class="fa fa-search" aria-hidden="true"></i></div></div>
         <div className="header-search-flag"></div>
+       
      </div>
      <div className="header-options-container">
       <div className="header-options">

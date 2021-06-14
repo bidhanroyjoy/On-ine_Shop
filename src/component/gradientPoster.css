@@ -5,9 +5,20 @@
     display: flex;
 }
 
-.GradientPoster-container {
+.Gradient_Poster {
     width: 50%;
     margin: 50px 20px;
     height: 500px;
     background-color: seashell;
+}
+
+
+.image_format{
+    height: 494px;
+    width:270px;
+    padding:7px;
+    object-fit: cover;
+    margin: 4px;
+    z-index:-3;
+    overflow: hidden;
 }

@@ -1,7 +1,7 @@
 .footer {
     margin: 50px 20px;
     height: 350px;
-    background-color: rgb(20, 3, 32);
+    background-color: #19213E;
     display: flex;
     justify-content: space-around;
 }
